@@ -1,0 +1,11 @@
+.topbar_box {
+  height: 30px;
+  margin: 0 auto;
+  color: #6C6C6C;
+  font-size: 12px;
+}
+.topbar_box .center {
+  width: 1200px;
+  height: 50px;
+  background-color: #adf;
+}

@@ -1,0 +1,36 @@
+{
+  "name": "common_template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:e2e": "vue-cli-service test:e2e"
+  },
+  "dependencies": {
+    "iview": "^3.3.3",
+    "nprogress": "^0.2.0",
+    "vue": "^2.6.6",
+    "vue-i18n": "^5.0.3",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-e2e-cypress": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^7.1.5",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "postcss-loader": "^3.0.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}

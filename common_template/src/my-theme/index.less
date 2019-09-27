@@ -1,0 +1,63 @@
+@import '~iview/src/styles/index.less';
+
+// Here are the variables to cover, such as:
+//@primary-color: #8c0776;
+
+
+.theme(@backcolor:rgb(36,148,242),@fcolor:rgb(250,250,250),@primaryColor:#fff,@btnColor:rgb(36,148,242))
+
+{
+	.header{
+		color:@fcolor;
+		background:@backcolor;
+	}
+	.header *{
+		color:@fcolor;
+	}
+	*{
+		//color:@fcolor;
+	}
+
+	//top背景色
+	.ivu-layout-header,
+	.ivu-menu-light{
+		backgroud:@backcolor;
+	}
+
+	.conditions,.list,.ivu-layout-sider-trigger,.layout-footer-center,.ivu-layout-sider-trigger,.ivu-layout-sider{
+		background:@backcolor !important;
+	}
+
+	.ivu-menu-light{
+
+	}
+	.ivu-menu-submenu-title:hover,.ivu-menu-item:hover{
+		color:@backcolor;
+	}
+	.ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu){
+		color:@backcolor;
+		background: #f0faff;
+	}
+	.ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu):after{
+		background: @backcolor;
+	}
+
+	.itemActive{
+		color:@backcolor!important;
+		box-shadow:0px 0px 15px 7px rgb(121,170,220) inset;
+	}
+
+	.infoList{
+		background:@primaryColor;
+		color:@fcolor !important;
+	}
+
+	.ivu-btn-primary{
+		background-color:@btnColor;
+		border-color:@btnColor;
+	}
+
+	.ivu-btn-default,.ivu-btn-dashed,.ivu-btn-text,.ivu-dropdown-item{
+		color:#333!important;
+	}
+}

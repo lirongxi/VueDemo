@@ -1,0 +1,113 @@
+//Slide.jsx 样式
+.box{
+    width: 1200px;
+    height: 400px;
+    margin: 100px auto;
+    padding: 0;
+    position: relative;
+    ul.img{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li{
+            width: 100%;
+            height: 400px;
+            line-height: 300px;
+            font-size: 32px;
+            color: #ffffff;
+            text-align: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+        }
+        li:nth-child(1){
+            background-color: antiquewhite;
+        }
+        li:nth-child(2){
+            background-color: rgb(231, 138, 16);
+        }
+        li:nth-child(3){
+            background-color: rgb(233, 25, 181);
+        }
+        li:nth-child(4){
+            background-color: rgb(10, 230, 47);
+        }
+        li:nth-child(5){
+            background-color: rgb(35, 162, 247);
+        }
+    }
+    ul.btn{
+        position: absolute;
+        bottom: 15px;
+        right: 20px;
+        z-index: 100;
+        li{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin: 0 8px;
+            border: 1px solid #ffffff;
+            border-radius: 50%;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        li:hover{
+            background-color: aliceblue;
+        }
+    }
+}
+
+//Tab.js   样式
+.tab-box{
+    width: 500px;
+    height: 500px;
+    border: 2px solid #dddddd;
+    margin: 20px auto;
+}
+.tab-box .tab{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 16px;
+    list-style: none;
+    li{
+        display: inline-block;
+        width: 25%;
+        height: 40px;
+        border: 1px solid #eeeeee;
+        cursor: pointer;
+    }
+    li:hover{
+        background-color: antiquewhite;
+    }
+}
+.tab-box .conter{
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    div{
+        width: 100%;
+        height: 300px;
+        line-height: 300px;
+        text-align: center;
+        display: none;
+        // position: absolute;
+        // position: relative;
+        // position:static;
+        // position: fixed;
+        // position: inherit;
+        // align-items: center;
+        // justify-content: center;
+    }
+    div:nth-child(1){
+        background-color: aquamarine;
+    }
+    div:nth-child(2){
+        background-color: palegreen;
+    }
+    div:nth-child(3){
+        background-color: peru;
+    }
+}
